@@ -1,0 +1,30 @@
+EVADEO-DLLTEST, par Axey.
+
+Ce logiciel teste la compatibilite de bibliotheques (.DLL) et de fichiers executables (.EXE) avec votre Evadeo.
+
+Les fichiers a tester peuvent se trouver dans les repertoires suivants :
+
+\Evadeo\Extra\Sys\DLLs
+\Evadeo\Extra\Sys\DLLs2
+\Evadeo\Extra\Sys\DLLs3
+\Evadeo\Extra\Sys\DLLs-DOTNET
+\Evadeo\Extra\Sys\DLLs-Test
+
+\Evadeo\Extra\Sys\EXEs
+\Evadeo\Extra\Sys\EXEs2
+\Evadeo\Extra\Sys\EXEs3
+\Evadeo\Extra\Sys\EXEs-DOTNET
+\Evadeo\Extra\Sys\EXEs-Test
+
+Si certains de ces repertoires n'existent pas, cela ne posera aucun probleme.
+
+Apres avoir lance EVADEO-DLLTEST.EXE, l'analyse debute. La structure de chaque fichier sert a determiner s'il est compatible avec l'Evadeo au niveau du materiel et de l'OS.
+
+Dans un second temps, les bibliotheques sont chargees afin de determiner leur compatibilite fonctionnelle.
+
+Une fois l'analyse terminee, le logiciel cree un fichier a la racine de la carte SD (\Evadeo\), nomme EVADEO-DLLTEST.TXT
+
+Celui-ci contient un rapport complet sur l'ensemble des fichiers. Il peut être consulte a l'aide d'un editeur de textes tel que NOTEPAD.
+
+A noter : la date indiquee pour chaque fichier est la date a laquelle le code a ete compile et non la date du fichier lui-meme.
+
